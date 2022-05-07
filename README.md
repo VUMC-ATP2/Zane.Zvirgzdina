@@ -7,7 +7,7 @@ Ja man jautātu, kura ir mana mīļākā grāmata, es varētu ilgi un dikti dom�
 Taču, ja man pajautātu pēdējā laikā labāko lasīto grāmatu, es minētu "Laziness does not exist", ko noteikti ieteiktu visiem darbaholiķiem. 
 Vairāk izklaidei varu minēt Dave Grohl "The Storyteller", ko iesaku klausīties audio formātā. 
 Tā kā, ja nepieciešamas idejas lasāmvielai - droši pie manis. Lūk, ir mans lasītāja [profils](https://www.goodreads.com/zanezvirgzdina). 
-Lūk, attēls ar tuvākajā laikā lasāmajām grāmatām: ![This is an image](img/books.jpg)
+Lūk, attēls ar tuvākajā laikā lasāmajām grāmatām: ![This is an image](img/Books.jpg)
 
 ## Testēšana un es
 Kā es nonācu līdz idejai, ka vēlētos būt testētājs? 
