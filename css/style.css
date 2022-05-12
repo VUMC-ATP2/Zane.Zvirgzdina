@@ -1,64 +1,146 @@
-/* zem zvaigznītes visam dokumentam stils */
-
-* {
-    max-width: 100%;
-    margin: auto
+html {
+    font-size: 100%;
+    font-family: 'PT Sans', sans-serif;
 }
 
-div {
-    border-radius: 10px;
+body {
+    margin: 0;
+    padding: 3rem 1rem;
+    background-color: rgb(197, 194, 194);
 }
 
-#header {
-    height: 40px;
-    width: 100%;
-    background-color: aqua;
-    position: fixed;
-    z-index: 1;
+.wrapper {
+    margin: 0 auto;
+    max-width: 70rem;
+    display: flex;
 }
 
-.footer {
-    height: 40px;
-    width: 100%;
-    background-color: aqua;
+.intro {
+    flex: 0 0 350px;
+    background-color: rgb(231, 231, 231);
+    z-index: 5;
+}
+
+.profile {
     position: relative;
-    clear: both;
+    background-color: rgb(48, 168, 216);
+    padding: 2rem 1rem;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.left-side {
-    height: 1010px;
-    width: 50px;
-    background-color: aqua;
-    float: left;
-    position: fixed;
+.photo img {
+    width: 80%;
+    border-radius: 50%;
 }
 
-.right-side {
-    height: 1010px;
-    width: 50px;
-    background-color: aqua;
-    float: right;
-    position: inherit;
+.bio .name {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: 1rem;
 }
 
-.content {
-    display: inline-block;
-    margin-top: 6px;
-    margin-left: 60px;
-    width: 75%;
-    height: 1010px;
+.bio .profession {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-.heading {
-    font-size: 30px;
+.intro-section {
+    padding: 0 2rem;
+    color: rgb(65, 61, 61);
+}
+
+.intro-section .title {
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 20px
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.copyright {
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.about .paragraph {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.info-section {
+    margin: 1rem 0;
+}
+
+.link a {
+    color: rgb(19, 16, 167);
+}
+
+
+/* Detail section overall setting*/
+
+.detail {
+    background-color: white;
+    padding: 2rem;
+}
+
+.detail-title {
+    display: flex;
+    align-items: center;
+}
+
+
+/* time line block in education section */
+
+.timeline-block {
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+.timeline-block h1 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.timeline-block p {
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+
+/* Programming skills section */
+
+.pg-list {
+    column-count: 2;
+    list-style: circle;
+}
+
+
+/* languages section */
+
+.languages {
+    column-count: 3;
+}
+
+
+/* Interests Section */
+
+.favor-list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.favor-list>li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(48, 168, 216);
+    margin: 0;
+}
+
+.favor-list>li>i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 50px;
+    height: 20px;
 }
