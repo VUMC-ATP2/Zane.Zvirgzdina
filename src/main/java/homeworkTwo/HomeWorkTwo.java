@@ -11,7 +11,7 @@ public class HomeWorkTwo {
         System.out.println(x > 0);
         System.out.println(x < 0);
         System.out.println((x > 5) && (x <= 10));
-        System.out.println((x > 5) && (x != 5) && (x < 10));
+        System.out.println(!(x <= 5) && (x < 10));
         System.out.println((x == 0) || (x == 10));
         System.out.println(x * x > 10);
 
