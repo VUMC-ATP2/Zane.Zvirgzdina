@@ -2,6 +2,8 @@ package homeworkTwo;
 
 import java.util.Scanner;
 
+import static java.lang.Integer.parseInt;
+
 public class HomeWorkTwo {
     public static void main(String[] args) {
 
@@ -61,9 +63,12 @@ public class HomeWorkTwo {
         }
 
         // Task 3
-        int q = 15;
-        int y = 15;
-        int w = 250;
+        System.out.println("Please write Number 1 (of 3):");
+        int q = scanner.nextInt();
+        System.out.println("Please write Number 2 (of 3):");
+        int y = scanner.nextInt();
+        System.out.println("Please write Number 3 (of 3):");
+        int w = scanner.nextInt();
         if ((q > y) && (q > w)) {
             System.out.println(q + " (q) is the biggest number");
         } else if ((y > q) && (y > w)) {
@@ -76,15 +81,17 @@ public class HomeWorkTwo {
 
 
         // Task 4
-        String color = "red";
+        System.out.println("TRAFFIC LIGHTS");
+        System.out.println("Is the traffic light red, green or yellow?");
+        String color = scanner.next();
         if (color.equals("green")) {
-            System.out.println("go across that street!");
+            System.out.println("Go across that street!");
         } else if (color.equals("red")) {
-            System.out.println("don't cross that street!");
+            System.out.println("Don't cross that street!");
         } else if (color.equals("yellow")) {
-            System.out.println("finish crossing street if already on it, otherwise wait for the green light");
+            System.out.println("Finish crossing street if already on it, otherwise wait for the green light");
         } else {
-            System.out.println("make sure there are no cars and then cross the street!");
+            System.out.println("Make sure there are no cars and then cross the street!");
         }
 
         // Task 5

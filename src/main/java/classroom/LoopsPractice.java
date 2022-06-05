@@ -13,6 +13,7 @@ public class LoopsPractice {
             i++; // same as i = i+1
         }
 
+        // print 10 to 1;
         i = 10;
         while (i >= 1) {
             System.out.println(i);
