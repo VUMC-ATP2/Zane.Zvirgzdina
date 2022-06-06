@@ -75,6 +75,8 @@ public class HomeWorkTwo {
             System.out.println(y + " is the biggest number");
         } else if ((w > q) && (w > y)) {
             System.out.println(w + " is the biggest number");
+        } else if ((q == y) && (q == w)) {
+            System.out.println("All numbers are equal, cannot determine the biggest one");
         } else {
             System.out.println("There are equal biggest numbers in the set, cannot determine the biggest one");
         }

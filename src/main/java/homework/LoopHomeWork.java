@@ -96,15 +96,20 @@ public class LoopHomeWork {
         // Task 6: Write a program that allows three inputs by user of PIN. If it's correct - print "PIN accepted, welcome back"
         // If the PIN is wrong - print "Wrong PIN, try again", if the guesses are finished print "Sorry, you have been blocked"
         System.out.println("PIN input");
+        int tries = 1;
         int pin = 1234;
         System.out.println("Please enter PIN number: ");
         int inputPin = scanner.nextInt();
-        while (inputPin != pin) { // this allows indefinite tries, can't think of how to limit to 3
+        while (inputPin != pin && tries <3) {
             System.out.println("Wrong PIN, try again");
             System.out.println("Please enter PIN number: ");
             inputPin = scanner.nextInt();
+            tries++;
                    }
-        System.out.println("PIN accepted, welcome back");
-
+        if (inputPin != pin && tries ==3){
+            System.out.println("Sorry, you have been blocked");
+        } else {
+            System.out.println("PIN accepted, welcome back");
+        }
     }
 }
