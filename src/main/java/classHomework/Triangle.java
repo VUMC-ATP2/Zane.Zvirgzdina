@@ -11,9 +11,11 @@ public class Triangle {
         System.out.println("We are making a triangle! Side lengths are: " + sideA + " & " + sideB + " & " + sideC);
     }
 
-    public void areaOfTriangle(int a, int b, int c) {
-        double perimeter = ((a + b + c) / 2); // this rounds up the result :(
-        double areaOfTriangle = Math.sqrt(perimeter * (perimeter - a) * (perimeter - b) * (perimeter - c));
+    public void triangleArea(int sideA, int sideB, int sideC) {
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+        double areaOfTriangle = Math.sqrt(((sideA + sideB + sideC) / 2) * (((sideA + sideB + sideC) / 2) - sideA) * (((sideA + sideB + sideC) / 2) - sideB) * (((sideA + sideB + sideC) / 2) - sideC));
         System.out.println("Area of the triangle is " + areaOfTriangle);
     }
 

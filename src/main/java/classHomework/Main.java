@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         Triangle myTriangle = new Triangle();
-        myTriangle.sideA = 30;
-        myTriangle.sideB = 30;
-        myTriangle.sideC = 30;
+        myTriangle.sideA = 13;
+        myTriangle.sideB = 13;
+        myTriangle.sideC = 10;
 
         myTriangle.triangle();
 
-        myTriangle.areaOfTriangle(myTriangle.sideA, myTriangle.sideB, myTriangle.sideC);
+        myTriangle.triangleArea(myTriangle.sideA, myTriangle.sideB, myTriangle.sideC);
 
         myTriangle.isTriangleEquilateral();
 
